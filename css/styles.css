@@ -9,15 +9,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
+.container {
+  width: 1200px;
+  height: 0 15px;
+  margin: 0 auto;
 }
 
 /* header */
@@ -70,7 +65,7 @@ footer {
   letter-spacing: 0.78px;
 }
 
-.footer__logo__color {
+.footer__logo--color {
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -104,15 +99,13 @@ footer {
 }
 
 /* Main webstudio*/
-.section {
-  width: 1600px;
+/* hero section */
+.hero {
   height: 600px;
-  flex-shrink: 0;
-
   background: #2f303a;
 }
 
-.section__titele {
+.hero__title {
   color: #fff;
   text-align: center;
   font-size: 44px;
@@ -122,12 +115,18 @@ footer {
   text-transform: uppercase;
 }
 
-.section__button {
-  color: #fff;
+.hero__button {
+  width: 216px;
+height: 50px;
+  border-radius: 4px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #FFF;
   text-align: center;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 187.5%;
+  line-height: 30px; /* 187.5% */
   letter-spacing: 0.96px;
 }
 
@@ -153,7 +152,7 @@ footer {
 
 /* works */
 
-.section__works__title {
+.works__title {
   color: #212121;
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -170,7 +169,7 @@ footer {
 
 /* team */
 
-.section__team__titel {
+.team__title {
   color: #212121;
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -213,7 +212,7 @@ footer {
   letter-spacing: 0.48px;
 }
 
-.portfolio__item__button:hover {
+.portfolio__button__item:hover {
   color: #fff;
 }
 
@@ -222,7 +221,7 @@ footer {
   height: 294px;
   flex-shrink: 0;
 }
-.portfolio__titele {
+.portfolio__list___title {
   color: #212121;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
