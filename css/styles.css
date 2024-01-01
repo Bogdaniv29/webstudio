@@ -70,9 +70,9 @@ body {
 
 .header__contacts__link {
   color: #757575;
-font-size: 14px;
-font-weight: 500;
-letter-spacing: 0.28px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
 }
 
 .header__contacts__link:hover {
