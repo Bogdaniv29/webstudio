@@ -128,8 +128,12 @@ footer {
 /* Main webstudio*/
 /* hero section */
 .hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 600px;
   background: #2f303a;
+
 }
 
 .hero__title {
@@ -140,9 +144,13 @@ footer {
   line-height: 136.364%;
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  margin-bottom: 40px;
+  /* padding-top: 200px; */
 }
 
 .hero__button {
+  display: block;
+  margin: 0 auto;
   width: 216px;
   height: 50px;
   border-radius: 4px;
@@ -156,8 +164,18 @@ footer {
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.96px;
 }
-
 /* advantages */
+.advantages {
+}
+.section {
+}
+.container {
+}
+.advantages__list {
+  display: flex;
+}
+.advantages__item {
+}
 
 .advantages__item__title {
   color: #212121;
@@ -178,6 +196,10 @@ footer {
 }
 
 /* works */
+
+.works {
+margin-bottom: 94px;
+}
 
 .works__title {
   color: #212121;
