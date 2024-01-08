@@ -167,12 +167,11 @@ footer {
 /* advantages */
 .advantages {
 }
-.section {
-}
-.container {
-}
+
+
 .advantages__list {
   display: flex;
+  justify-content: space-between;
 }
 .advantages__item {
 }
@@ -198,7 +197,11 @@ footer {
 /* works */
 
 .works {
-margin-bottom: 94px;
+}
+
+.works__list{
+  display: flex;
+  gap: 30px;
 }
 
 .works__title {
@@ -211,12 +214,13 @@ margin-bottom: 94px;
 }
 
 .works__item {
-  width: 370px;
-  height: 294px;
-  flex-shrink: 0;
 }
 
 /* team */
+
+.team {
+  background: #F5F4FA;
+}
 
 .team__title {
   color: #212121;
@@ -227,10 +231,12 @@ margin-bottom: 94px;
   letter-spacing: 1.08px;
 }
 
+.team__list{
+  display: flex;
+  gap: 30px;
+}
+
 .team__item__img {
-  width: 270px;
-  height: 260px;
-  flex-shrink: 0;
 }
 
 .team__item__title {
