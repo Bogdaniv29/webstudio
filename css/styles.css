@@ -50,6 +50,8 @@ body {
   letter-spacing: 0.28px;
 }
 
+
+
 .header__nav__list {
   display: flex;
   gap: 50px;
@@ -258,6 +260,12 @@ footer {
 }
 
 /*main portfolio  */
+
+.portfolio {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
 .portfolio__button__list {
   color: #212121;
   text-align: center;
@@ -291,4 +299,70 @@ footer {
   font-weight: 400;
   line-height: 187.5%;
   letter-spacing: 0.48px;
+}
+
+.header {
+}
+.container {
+}
+.header__logo {
+}
+.header__logo--color {
+}
+.header__nav {
+}
+.header__nav__list {
+}
+.header__nav__item {
+}
+.header__nav__link {
+}
+.header__contacts__list {
+}
+.header__contacts__item {
+}
+
+.portfolio__button:hover,
+.portfolio__buttonfocus {
+  background: #2196F3;
+  color: #FFF;
+  /* shadow-middle */
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);}
+
+
+.header__contacts__link {
+}
+.portfolio__button__list {
+  border-radius: 4px;
+  display: flex;
+  gap: 8;
+  justify-content: center;
+}
+.portfolio__button__item {
+}
+.portfolio__button {
+}
+.portfolio__project__list {
+}
+.portfolio__project__item {
+}
+.portfolio__img {
+}
+.portfolio__list__title {
+}
+.portfolio__text {
+}
+.portfolio__list__text {
+}
+.footer {
+}
+.footer__logo {
+}
+.footer__logo--color {
+}
+.footer__contact-list {
+}
+.footer__contact-item {
+}
+.footer__contact-link {
 }
