@@ -165,15 +165,47 @@ footer {
   letter-spacing: 0.96px;
 }
 
-
 /* advantages */
 .advantages {
 }
 
 .advantages__list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
+
+.advantages__item::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+
+.advantages__item:nth-child(1)::before {
+  background-image: url(../images/antenaetc/antenna.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.advantages__item:nth-child(2)::before {
+  background-image: url(../images/antenaetc/clock.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.advantages__item:nth-child(3)::before {
+  background-image: url(../images/antenaetc/diagram.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.advantages__item:nth-child(4)::before {
+  background-image: url(../images/antenaetc/astronaut.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .advantages__item {
 }
 
@@ -184,6 +216,7 @@ footer {
   font-weight: 700;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  padding-top: 30px;
 }
 
 .advantages__item__text {
@@ -271,9 +304,9 @@ footer {
   justify-content: center;
   border-radius: 4px;
 
-
-/* shadow-middle */
-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+  /* shadow-middle */
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio__button__item {
