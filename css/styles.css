@@ -80,8 +80,9 @@ body {
 }
 
 /* footer */
-footer {
-  margin-top: 154px;
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #2f303a;
 }
 
@@ -253,6 +254,7 @@ footer {
 /* team */
 
 .team {
+  padding: 94px 0;
   background: #f5f4fa;
 }
 
@@ -270,11 +272,14 @@ footer {
   gap: 30px;
 }
 
-.team__item__img {
+.team__list__item {
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
+  background: rgb(255, 255, 255);
+}
 
-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-background: rgb(255, 255, 255);
+.team__item__img {
 }
 
 .team__item__title {
@@ -350,10 +355,14 @@ background: rgb(255, 255, 255);
 }
 
 .portfolio__project__item {
+  background: #fff;
+  border: 1px solid #eee;
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.portfolio__img {
+.portfolio__project__item:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio__list__title {
@@ -364,7 +373,7 @@ background: rgb(255, 255, 255);
   line-height: 200%;
   letter-spacing: 1.08px;
 }
-.portfolio__text {
+.portfolio__list__text {
   color: #757575;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
