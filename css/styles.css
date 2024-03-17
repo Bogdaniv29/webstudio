@@ -13,7 +13,6 @@ body {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 1px solid red;
 }
 
 .section {
@@ -77,6 +76,16 @@ body {
 
 .header__contacts__link:hover {
   color: var(--link-color);
+}
+
+.header__contacts__email-icon {
+  width: 16px;
+  height: 12px;
+}
+
+.header__contacts__phone-icon {
+  width: 10px;
+  height: 16px;
 }
 
 /* footer */
