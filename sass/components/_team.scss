@@ -59,12 +59,13 @@
     height: 44px;
     width: 44px;
     padding: 12px 12px;
-  }
-  
+      
   .team__item__list-item:hover {
-    background-color: var(--link-color);
+    background-color: $link-color;
     border-radius: 50%;
   }
+  }
+
   
   .team__item__list-item:hover > a > svg {
     fill: #FFFFFF;
