@@ -18,7 +18,7 @@
   }
   
   .team__section__title {
-    color: var(--title-color);
+    color: $title-color;
   
     text-align: center;
     font-size: 36px;
@@ -29,7 +29,7 @@
   }
   
   .team__item__subtitle {
-    color:var(--title-color);
+    color: $title-color;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -39,7 +39,7 @@
   }
   
   .team__item__text {
-    color: var(--main-text-color);
+    color: $main-text-color;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -59,6 +59,7 @@
     height: 44px;
     width: 44px;
     padding: 12px 12px;
+    transition: background-color $animation, border-radius $animation, fill $animation;
       
   .team__item__list-item:hover {
     background-color: $link-color;
