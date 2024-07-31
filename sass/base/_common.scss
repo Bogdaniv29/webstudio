@@ -4,14 +4,20 @@ body {
 
 
 .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
   
   .section {
     margin-bottom: 94px;
   }
   
   // Mobile 400px
+
+  @media screen and (min-width:480px) {
+    .container {
+      width: 480px;
+      margin: 0 auto;
+    }
+  }
