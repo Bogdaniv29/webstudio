@@ -1,5 +1,7 @@
 // utils
 @import "./utils/variables";
+@import "./utils/placeholder";
+
 
 // base
 @import "./base/reset";
@@ -7,16 +9,18 @@
 
 // components
 @import "./components/header";
-@import "./components/hero";
-@import "./components/backdrop";
-@import "./components/modal";
-@import "./components/advantageslist";
-@import "./components/team";
-@import "./components/works";
-@import "./components/clients";
+@import "./components/main/hero";
+@import "./components/main/advantageslist";
+@import "./components/main/works";
+@import "./components/main/team";
+@import "./components/main/clients";
 @import "./components/footer";
-@import "./components/join";
-@import "./components/portfolio";
-@import"./components/mobile-menu";
-@import"./utils/mixins.scss";
-@import"./utils/placeholder.scss";
+
+// portfolio
+@import "./components/portfolio/portfolio-buttons";
+@import"./components/portfolio/portfolio-project";
+
+
+@import "./components/main/backdrop";
+@import "./components/main/modal";
+@import "./components/mobile-menu";
