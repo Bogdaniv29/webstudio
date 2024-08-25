@@ -1,5 +1,6 @@
 .advantages__list{
   display: flex;
+  flex-direction: column;
   gap: 30px;
 
   
@@ -48,4 +49,59 @@
   letter-spacing: 0.42px;
 }
 
+}
+
+
+@media screen and (min-width: 1200px) {
+  .advantages__list{
+    display: flex;
+    gap: 30px;
+  
+    
+  &-item:nth-child(1)::before {
+    content: '';
+    background-image: url('../images/antenaetc/antenna.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  &-item:nth-child(2)::before {
+    content: '';
+    background-image: url('../images/antenaetc/clock.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  &-item:nth-child(3)::before {
+    content: '';
+    background-image: url('../images/antenaetc/diagram.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  &-item:nth-child(4)::before {
+    content: '';
+    background-image: url('../images/antenaetc/astronaut.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+  &__subtitle {
+    color: var(--title-color);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  
+  &__text {
+    color: var(--main-text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 171.429%;
+    letter-spacing: 0.42px;
+  }
+  
+  }
 }
