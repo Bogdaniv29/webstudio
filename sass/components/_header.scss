@@ -37,6 +37,10 @@
     padding-top: 21px;
     padding-bottom: 21px;
 
+    & .container {
+      justify-content: flex-start;
+    }
+
     &__logo {
       margin-right: 88px;
     }
@@ -45,7 +49,7 @@
       display: flex;
       align-items: center;
       gap: 50px;
-      margin-right: 96px;
+      margin-right: 90px;
     }
 
     &__nav-link {
@@ -54,7 +58,7 @@
       font-weight: 500;
       letter-spacing: 0.28px;
       position: relative;
-      padding-bottom: 32px;
+      padding-bottom: 30px;
     }
 
     &__nav-link:hover,
@@ -76,6 +80,10 @@
 
     &__contact-list {
       display: block;
+    }
+
+    &__contact-item:not(:last-child) {
+      margin-bottom: 10px;
     }
 
     &__contact-link {
@@ -120,6 +128,6 @@
 
     &__contact-link {
       gap: 10px;
-     }
+    }
   }
 }

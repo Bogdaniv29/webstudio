@@ -4,9 +4,6 @@
   display: none;
 }
 @media screen and (max-width: 767px) {
-  nav {
-    order: 1;
-  }
 
   .burger__label {
     display: block;
@@ -14,7 +11,6 @@
     width: 30px;
     margin-left: auto;
     position: relative;
-    top: 15px;
   }
 
   .burger__label:hover {
@@ -36,7 +32,7 @@
     position: absolute;
     right: 0;
     transition: 0.3s;
-    z-index: 5;
+    z-index: 10;
   }
 
   .burger__label span::before {
@@ -47,12 +43,10 @@
     top: 8px;
   }
 
-  .mobile__menu {
-    display: none;
-  }
+
   .burger__input[type="checkbox"]:checked ~ .mobile__menu {
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -73,6 +67,7 @@
     transform: rotate(90deg);
   }
   .mobile__menu {
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 5;

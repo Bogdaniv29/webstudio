@@ -21,26 +21,78 @@
   </head>
 
   <body>
-    <!-- header -->
+  <!-- header -->
 
+  <body>
     <header class="header">
       <div class="container">
         <a href="index.html" class="header__logo"
           >Web<span class="header__logo--colored">Studio</span></a
         >
         <nav class="header__nav">
+          <input type="checkbox" id="toggle" class="burger__input" />
+          <label for="toggle" class="burger__label">
+            <span class="toggle-btn"></span>
+          </label>
           <ul class="header__nav-list">
-            <li class="header__nav-item">
+            <li class="header__nav-item current">
               <a class="header__nav-link" href="index.html">Студія</a>
             </li>
-            <li class="header__nav-item current">
+            <li class="header__nav-item">
               <a class="header__nav-link" href="portfolio.html">Портфоліо</a>
             </li>
             <li class="header__nav-item">
-              <a class="header__nav-link" href="#">Контакти</a>
+              <a class="header__nav-link" href="#contacts">Контакти</a>
             </li>
           </ul>
         </nav>
+        
+      <!-- Mobile menu -->
+      <div class="mobile__menu">
+        <nav class="mobile__nav">
+          <ul class="mobile__nav-list">
+            <li class="mobile__nav-item">
+              <a class="mobile__nav-link" href="index.html">Студія</a>
+            </li>
+            <li class="mobile__nav-item">
+              <a class="mobile__nav-link current" href="portfolio.html">Портфоліо</a>
+            </li>
+            <li class="mobile__nav-item">
+              <a class="mobile__nav-link" href="#contacts">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="mobile__contact-list">
+          <li class="mobile__contact-item">
+            <a class="mobile__contact-link" href="tel:+380961111111">
+              +38 096 111 11 11
+            </a>
+          </li>
+          <li class="mobile__contact-item">
+            <a class="mobile__contact-link" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
+          </li>
+        </ul>
+        <ul class="mobile__social">
+          <li class="mobile__social-item">
+            <a href="" class="mobile__social-link">Instagram</a>
+          </li>
+          <li class="mobile__social-item">
+            <a href="" class="mobile__social-link">Twitter</a>
+          </li>
+          <li class="mobile__social-item">
+            <a href="" class="mobile__social-link">Facebook</a>
+          </li>
+          <li class="mobile__social-item">
+            <a href="" class="mobile__social-link">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- end mobile menu -->
+
         <ul class="header__contact-list">
           <li class="header__contact-item">
             <a class="header__contact-link" href="mailto:info@devstudio.com">
@@ -63,6 +115,7 @@
           </li>
         </ul>
       </div>
+
     </header>
 
     <!-- main -->
