@@ -1,52 +1,56 @@
-.hero {
-  height: 480px;
-
-  color: var(--logo-footer-color);
-  text-align: center;
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("../images/hero/hero.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.hero__title {
-  color: #fff;
-  width: 360px;
-  margin: 0 auto;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 26px;
-  font-weight: 900;
-  line-height: 161%;
-  letter-spacing: 1.56px;
-  text-transform: uppercase;
-  padding-top: 118px;
-  margin-bottom: 30px;
-}
-
-.hero__btn {
-  @extend %button;
-  color: #fff;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 30px; /* 187.5% */
-  letter-spacing: 0.96px;
-  width: 200px;
-  height: 50px;
-  cursor: pointer;
-  color: $logo-footer-color;
-  transition: box-shadow $animation;
-}
-
-.hero__btn:hover,
-.hero__btn:focus {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+@media screen and (min-width:480px) {
+  .hero {
+    height: 480px;
+  
+    color: var(--logo-footer-color);
+    text-align: center;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/hero/hero.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero__title {
+    color: #fff;
+    width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 161%;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+    padding-top: 118px;
+    margin-bottom: 30px;
+  }
+  
+  .hero__btn {
+    @extend %button;
+    color: #fff;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    color: $logo-footer-color;
+    transition: box-shadow $animation;
+  }
+  
+  .hero__btn:hover,
+  .hero__btn:focus {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+     
 }
 
 @media screen and (min-width: 768px) {

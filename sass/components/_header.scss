@@ -1,33 +1,38 @@
-.header {
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-  & .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+@media screen and (min-width:480px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+    & .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    &__logo {
+      color: $link-color;
+      font-family: "Raleway", sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 0.78px;
+    }
+  
+    &__logo--colored {
+      color: $logo-color;
+    }
+  
+    &__nav-list {
+      display: none;
+    }
+  
+    &__contact-list {
+      display: none;
+    }
   }
-
-  &__logo {
-    color: $link-color;
-    font-family: "Raleway", sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-  }
-
-  &__logo--colored {
-    color: $logo-color;
-  }
-
-  &__nav-list {
-    display: none;
-  }
-
-  &__contact-list {
-    display: none;
-  }
+  
+   
 }
+
 
 @media screen and (min-width: 768px) {
   .mobile__menu {
