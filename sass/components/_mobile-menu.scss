@@ -76,7 +76,7 @@ letter-spacing: 0.8px;
     transform: rotate(90deg);
   }
   .mobile__menu {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 5;
