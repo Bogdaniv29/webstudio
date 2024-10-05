@@ -51,9 +51,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .adventeges {
-    &__list {
-      display: flex;
+  .adventeges__list {
       flex-direction: row;
       flex-wrap: wrap;
 
@@ -62,30 +60,20 @@
       }
 
       &__subtitle {
-        color: $title-color;
-        font-size: 14px;
-        font-weight: 700;
-        letter-spacing: 0.42px;
-        text-transform: uppercase;
+        text-align: start;
       }
 
       &__text {
-        color: $main-text-color;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 171.429%;
-        letter-spacing: 0.42px;
+        width: 354px;
       }
     }
   }
-}
+
 
 @media screen and (min-width: 1200px) {
   .advantages__list {
     display: flex;
     gap: 30px;
-
-
 
     &__subtitle {
       color: $title-color;
