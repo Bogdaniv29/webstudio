@@ -184,10 +184,9 @@
               <div class="works__img__container">
                 <img
                   class="works__section__img"
-                  src="images/about/img1.jpg"
+                  srcset="./images/desktop/about/img-1.jpg 1x, ./images/desktop/about/img-1@2x.jpg 2x"
+                  src="#"
                   alt="desktop applications"
-                  width="370"
-                  height="294"
                 />
                 <p class="works__section-text">Десктопні додатки</p>
               </div>
@@ -228,13 +227,13 @@
           <h2 class="team__section__title">Наша команда</h2>
           <ul class="team__section__list">
             <li class="team__list-item">
-              <img
-                class="team__item__img"
-                src="images/team/igor.jpg"
-                alt="Ihor Demyanenko"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source srcset="./images/desktop/team/igord.jpg 1x, ./images/desktop/team/igord@2x.jpg 2x" media="(min-width:1200px)">
+                <source srcset="./images/tablet/team/igort.jpg 1x, ./images/tablet/team/igort@2x.jpg 2x" media="(min-width:768px)">
+                <source srcset="./images/mobile/team/igorm.jpg 1x, ./images/mobile/team/igorm@2x.jpg 2x" media="(max-width:767px)">
+                <img src="#" alt="Ihor Demyanenko">
+              </picture>
+
               <h3 class="team__item__subtitle">Ігор Дем'яненко</h3>
               <p class="team__item__text">Product Designer</p>
 
