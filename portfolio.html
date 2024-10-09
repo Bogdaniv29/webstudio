@@ -21,9 +21,7 @@
   </head>
 
   <body>
-  <!-- header -->
-
-  <body>
+    <!-- header -->
     <header class="header">
       <div class="container">
         <a href="index.html" class="header__logo"
@@ -46,52 +44,54 @@
             </li>
           </ul>
         </nav>
-        
-      <!-- Mobile menu -->
-      <div class="mobile__menu">
-        <nav class="mobile__nav">
-          <ul class="mobile__nav-list">
-            <li class="mobile__nav-item">
-              <a class="mobile__nav-link" href="index.html">Студія</a>
+
+        <!-- Mobile menu -->
+        <div class="mobile__menu">
+          <nav class="mobile__nav">
+            <ul class="mobile__nav-list">
+              <li class="mobile__nav-item">
+                <a class="mobile__nav-link" href="index.html">Студія</a>
+              </li>
+              <li class="mobile__nav-item">
+                <a class="mobile__nav-link current" href="portfolio.html"
+                  >Портфоліо</a
+                >
+              </li>
+              <li class="mobile__nav-item">
+                <a class="mobile__nav-link" href="#contacts">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="mobile__contact-list">
+            <li class="mobile__contact-item">
+              <a class="mobile__contact-link" href="tel:+380961111111">
+                +38 096 111 11 11
+              </a>
             </li>
-            <li class="mobile__nav-item">
-              <a class="mobile__nav-link current" href="portfolio.html">Портфоліо</a>
-            </li>
-            <li class="mobile__nav-item">
-              <a class="mobile__nav-link" href="#contacts">Контакти</a>
+            <li class="mobile__contact-item">
+              <a class="mobile__contact-link" href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
             </li>
           </ul>
-        </nav>
+          <ul class="mobile__social">
+            <li class="mobile__social-item">
+              <a href="" class="mobile__social-link">Instagram</a>
+            </li>
+            <li class="mobile__social-item">
+              <a href="" class="mobile__social-link">Twitter</a>
+            </li>
+            <li class="mobile__social-item">
+              <a href="" class="mobile__social-link">Facebook</a>
+            </li>
+            <li class="mobile__social-item">
+              <a href="" class="mobile__social-link">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
 
-        <ul class="mobile__contact-list">
-          <li class="mobile__contact-item">
-            <a class="mobile__contact-link" href="tel:+380961111111">
-              +38 096 111 11 11
-            </a>
-          </li>
-          <li class="mobile__contact-item">
-            <a class="mobile__contact-link" href="mailto:info@devstudio.com">
-              info@devstudio.com
-            </a>
-          </li>
-        </ul>
-        <ul class="mobile__social">
-          <li class="mobile__social-item">
-            <a href="" class="mobile__social-link">Instagram</a>
-          </li>
-          <li class="mobile__social-item">
-            <a href="" class="mobile__social-link">Twitter</a>
-          </li>
-          <li class="mobile__social-item">
-            <a href="" class="mobile__social-link">Facebook</a>
-          </li>
-          <li class="mobile__social-item">
-            <a href="" class="mobile__social-link">LinkedIn</a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- end mobile menu -->
+        <!-- end mobile menu -->
 
         <ul class="header__contact-list">
           <li class="header__contact-item">
@@ -115,7 +115,6 @@
           </li>
         </ul>
       </div>
-
     </header>
 
     <!-- main -->
@@ -419,16 +418,14 @@
                 class="footer__input"
                 required
               />
-              <a href="#" class="footer__link-send">
-                <button class="footer__send">
-                  <p class="footer__send-text">Підписатися</p>
-                  <svg class="footer__svg">
-                    <use
-                      href="./images/icoons/symbol-defs.svg#icon-icon-send"
-                    ></use>
-                  </svg>
-                </button>
-              </a>
+              <button class="footer__send">
+                Підписатися
+                <svg class="footer__svg">
+                  <use
+                    href="./images/icoons/symbol-defs.svg#icon-icon-send"
+                  ></use>
+                </svg>
+              </button>
             </div>
           </div>
         </div>
