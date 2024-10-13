@@ -717,17 +717,15 @@ body {
 }
 
 .portfolio__project-text {
-  color: #757575;
-  font-size: 16px;
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 187.5%;
-  letter-spacing: 0.48px;
-  padding-left: 24px;
-  padding-bottom: 20px;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.54px;
 }
 
 .portfolio__section__project-list {
-  display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
