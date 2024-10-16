@@ -454,7 +454,8 @@ body {
   }
 }
 .clients {
-  padding: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   text-align: center;
 }
 .clients__title {
@@ -464,6 +465,7 @@ body {
   font-size: 28px;
   font-weight: 700;
   letter-spacing: 0.84px;
+  margin-bottom: 30px;
 }
 .clients__list {
   display: flex;
