@@ -4,16 +4,6 @@
   display: none;
 }
 @media screen and (max-width: 767px) {
-
-.mobile__nav-link {
-  color: #2196F3;
-text-align: center;
-font-family: "Roboto", sans-serif;
-font-size: 40px;
-font-weight: 500;
-letter-spacing: 0.8px;
-}
-  
   .burger__label {
     display: block;
     height: 30px;
@@ -51,7 +41,6 @@ letter-spacing: 0.8px;
   .burger__label span::after {
     top: 8px;
   }
-
 
   .burger__input[type="checkbox"]:checked ~ .mobile__menu {
     // display: flex;
@@ -93,14 +82,21 @@ letter-spacing: 0.8px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
   }
 
   .mobile__nav-item:not(:last-child) {
     margin-bottom: 32px;
   }
 
-  .mobile__contact-item:not(:last-child) {
+  .mobile__nav-link {
+    color: #2196f3;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+  }
 
+  .mobile__contact-item:not(:last-child) {
   }
 }
