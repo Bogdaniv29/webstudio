@@ -356,81 +356,83 @@
 
     <footer class="footer" id="contacts">
       <div class="container">
-        <div class="footer__elements">
-          <div class="footer__elements-first">
-            <a class="footer__logo" href="index.html">Web<span>Studio</span></a>
-            <address class="footer__contacts">
-              <a
-                class="footer__contacts__link"
-                href="https://maps.app.goo.gl/ZEPTmpD3si6g6RnHA"
-                target="_blank"
-                rel="noopener noreferrer"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-              <a class="footer__contacts__link" href="mailto:info@devstudio.com"
-                >info@devstudio.com<br
-              /></a>
-              <a class="footer__contacts__link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </address>
-          </div>
-          <div class="footer__elements-second">
-            <p class="join__text">приєднуйтесь</p>
-            <ul class="join__list">
-              <li class="join__item">
-                <a href="#" class="join__item-link">
-                  <svg class="join__item-link-svg">
-                    <use
-                      href="./images/icoons/symbol-defs.svg#icon-instagram"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="join__item">
-                <a href="#" class="join__item-link">
-                  <svg class="join__item-link-svg">
-                    <use
-                      href="./images/icoons/symbol-defs.svg#icon-twitter"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="join__item">
-                <a href="#" class="join__item-link">
-                  <svg class="join__item-link-svg">
-                    <use
-                      href="./images/icoons/symbol-defs.svg#icon-facebook"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="join__item">
-                <a href="#" class="join__item-link">
-                  <svg class="join__item-link-svg">
-                    <use
-                      href="./images/icoons/symbol-defs.svg#icon-linkedin"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer__send-div">
-            <label for="send" class="footer__label"
-              >підпишіться на розсилку</label
+        <div class="footer__elements-list">
+        <div class="footer__elements-first">
+          <a class="footer__logo" href="index.html"
+            >Web<span class="footer__logo--colored">Studio</span></a
+          >
+          <div class="footer__contacts">
+            <a
+              class="footer__contacts__link"
+              href="https://maps.app.goo.gl/ZEPTmpD3si6g6RnHA"
+              target="_blank"
+              rel="noopener noreferrer"
+              >м. Київ, пр-т Лесі Українки, 26</a
             >
+            <a class="footer__contacts__link" href="mailto:info@devstudio.com"
+              >info@devstudio.com<br
+            /></a>
+            <a class="footer__contacts__link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </div>
+        </div>
 
-            <div class="footer__send-form">
-              <input
-                type="email"
-                placeholder="E-mail"
-                id="send"
-                class="footer__input"
-                required
-              />
-              <button class="footer__send">
+        <!-- join sociale -->
+        <div class="footer__elements-second">
+          <p class="join__text">приєднуйтесь</p>
+          <ul class="join__list">
+            <li class="join__item">
+              <a href="#" class="join__item-link">
+                <svg class="join__item-link-svg">
+                  <use
+                    href="./images/icoons/symbol-defs.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join__item">
+              <a href="#" class="join__item-link">
+                <svg class="join__item-link-svg">
+                  <use
+                    href="./images/icoons/symbol-defs.svg#icon-twitter"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join__item">
+              <a href="#" class="join__item-link">
+                <svg class="join__item-link-svg">
+                  <use
+                    href="./images/icoons/symbol-defs.svg#icon-facebook"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join__item">
+              <a href="#" class="join__item-link">
+                <svg class="join__item-link-svg">
+                  <use
+                    href="./images/icoons/symbol-defs.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+        <!-- footer form -->
+        <div class="footer__send-div">
+          <p class="join__text">підпишіться на розсилку</p>
+          <form class="footer__send-form">
+            <input
+              type="email"
+              placeholder="E-mail"
+              id="send"
+              class="footer__input"
+              required
+            />
+              <button class="footer__button">
                 Підписатися
                 <svg class="footer__svg">
                   <use
@@ -438,10 +440,10 @@
                   ></use>
                 </svg>
               </button>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
-    </footer>
+
+      </footer>
   </body>
 </html>

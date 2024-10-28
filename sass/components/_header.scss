@@ -1,41 +1,35 @@
-  .header {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  
-    & .container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-  
-    &__logo {
-      color: $link-color;
-      font-family: "Raleway", sans-serif;
-      font-size: 24px;
-      font-weight: 700;
-      letter-spacing: 0.78px;
-    }
-  
-    &__logo--colored {
-      color: $logo-color;
-    }
-  
-    &__nav-list {
-      display: none;
-    }
-  
-    &__contact-list {
-      display: none;
-    }
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  & .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
-  
-   
 
+  &__logo {
+    color: $link-color;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+  }
 
+  &__logo--colored {
+    color: $logo-color;
+  }
+
+  &__nav-list {
+    display: none;
+  }
+
+  &__contact-list {
+    display: none;
+  }
+}
 
 @media screen and (min-width: 768px) {
-
-  
   .mobile__menu {
     display: none;
   }
@@ -46,9 +40,9 @@
     & .container {
       justify-content: flex-start;
     }
-  
+
     &__logo {
-     margin-right: 88px;
+      margin-right: 88px;
     }
 
     &__nav-list {
@@ -125,6 +119,10 @@
 
     &__nav-list {
       margin-right: 315px;
+    }
+
+    &__contact-item:not(:last-child) {
+      margin-bottom: 0;
     }
 
     &__contact-list {

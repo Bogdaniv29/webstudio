@@ -22,7 +22,7 @@
   &__item {
     border-radius: 4px;
     border: 1px solid #afb1b8;
-    padding: 16px 32px;
+    padding: 16px 52px;
     transition: border $animation;
 
     &:hover,
@@ -45,7 +45,11 @@
 @media screen and (min-width: 768px) {
   .clients {
     padding: 30px 0px;
-}
+
+    &__item {
+      padding: 16px 60px;
+    }
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -67,10 +71,7 @@
       gap: 30px;
     }
     &__item {
-      border-radius: 4px;
-      border: 1px solid #afb1b8;
       padding: 16px 32px;
-      transition: border $animation;
 
       &:hover,
       &:focus {
